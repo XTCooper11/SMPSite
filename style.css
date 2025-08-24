@@ -108,6 +108,7 @@ image {
     image {
         width: 70%;
         height: auto;
+        align-self: center;
     }
 }
 
@@ -118,5 +119,6 @@ image {
     image {
         width: 40%;
         height: auto;
+        align-self: center;
     }
 }
