@@ -25,3 +25,7 @@ function loadGovernmentPage() {
 function loadLawsPage() {
     window.location.href = 'Laws.html';
 };
+
+function loadSessionPage() {
+    window.location.href = 'sessions.html';
+}
