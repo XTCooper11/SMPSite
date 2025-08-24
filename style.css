@@ -101,10 +101,18 @@ body {
         font-size: 18px;
         margin: 10px;
     }
+    image {
+        width: 70%;
+        height: auto;
+    }
 }
 
 @media (max-width: 480px) {
     h1 {
         font-size: 36px;  
+    }
+    image {
+        width: 70%;
+        height: auto;
     }
 }
