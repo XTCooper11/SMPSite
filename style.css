@@ -1,6 +1,4 @@
-html {
-    background-color: rgb(31, 30, 30);
-}
+
 h1 {
     color: rgb(197, 197, 197);
     font-size: 100px;
@@ -27,11 +25,6 @@ button:hover {
     background-color: rgb(85, 85, 85);
 }
 
-.button-container {
-    text-align: center;
-    margin-top: 50px;
-}
-
 .Laws {
     text-align: center;
     margin-top: 15px;
@@ -42,7 +35,40 @@ button:hover {
 p {
     color: rgb(197, 197, 197);
     font-size: 25px;
-    text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 20px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(197, 197, 197);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.smalltitle {
+    color: rgb(197, 197, 197);
+    font-size: 10px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.line {
+    margin: 20px 0;
+    text-align: right;
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
 }
