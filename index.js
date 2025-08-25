@@ -29,3 +29,7 @@ function loadLawsPage() {
 function loadSessionPage() {
     window.location.href = 'sessions.html';
 }
+
+function loadAboutPage() {
+    window.location.href = 'about.html';
+}
