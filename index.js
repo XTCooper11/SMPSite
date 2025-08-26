@@ -33,3 +33,7 @@ function loadSessionPage() {
 function loadAboutPage() {
     window.location.href = 'about.html';
 }
+
+function loadBORPage() {
+    window.location.href = 'BOR.html';
+}
