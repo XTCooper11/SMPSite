@@ -37,3 +37,13 @@ function loadAboutPage() {
 function loadBORPage() {
     window.location.href = 'BOR.html';
 }
+
+function DownloadFlag() {
+  link = document.createElement('a');
+  link.href = 'Jacktopia Flag.png';
+  link.download = 'Jacktopia Flag.png';
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
