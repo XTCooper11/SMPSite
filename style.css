@@ -98,6 +98,12 @@ ul {
     text-align: left;
     display: inline-block;
 }
+li {
+    margin-bottom: 25px;
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: left;
+}
 
 @media (max-width: 768px) {
     h1 {
